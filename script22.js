@@ -1,4 +1,4 @@
-const API = "https://65ab6a1efcd1c9dcffc659a4.mockapi.io/api/v1/services"
+const SERVICE = "https://65ab6a1efcd1c9dcffc659a4.mockapi.io/api/v1/services"
 
 let result = document.querySelector(".result")
 
