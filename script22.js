@@ -4,7 +4,7 @@ let result = document.querySelector(".result")
 
 async function getService() {
     try{
-        const res = await fetch(API)
+        const res = await fetch(SERVICE)
 
         const data = await res.json()
         showService(data)
